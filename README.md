@@ -7,3 +7,6 @@
 - content 내부 마크업 및 인터렉션 모션
 - canvas 모션
 - common 기능의 sticky, new video 모듈
+
+# 작업 환경
+웹서버만 목적으로 vite를 사용한 이유는 익숙해지기 위해서임

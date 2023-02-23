@@ -198,7 +198,7 @@ article[class*='m_feature-']>[class*='f_header-'],
 
 .c_btn_hubble span.copy {display:block;font-family:'sssM'; font-size:12px; letter-spacing:.16em;transition:color .25s;text-transform: uppercase;}
 .c_btn_hubble span.arrows {position:absolute;top:7px;bottom:7px;right:0;width:70px;border-left:1px solid #000;-webkit-transition:border .25s;-ms-transition:border .25s;transition:border .25s}
-.load .c_btn_hubble span.arrows:after {position:absolute;top:50%;left:50%;width:25px;height:12px;-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);content:'';background:url('./images/icon_btn_arrows.png') no-repeat;background-size:100% auto;}
+.load .c_btn_hubble span.arrows:after {position:absolute;top:50%;left:50%;width:25px;height:12px;-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);content:'';background:url('../images/icon_btn_arrows.png') no-repeat;background-size:100% auto;}
 
 .c_btn_hubble-type2 {display:inline-block;white-space: nowrap;height:50px;line-height:50px;padding:0 38px;vertical-align:top;border:1px solid #000;border-radius:10px;color:#000;box-sizing:border-box;font-family:'SamsungOne700';font-size:14px;letter-spacing:0.14em;text-transform: uppercase;-webkit-transition:border .25s, background .25s, color .25s;-ms-transition:border .25s, background .25s, color .25s;transition:border .25s, background .25s, color .25s}
 
@@ -242,7 +242,7 @@ article[class*='m_feature-']>[class*='f_header-'],
 
 
 .hubble a.c_link-type1 {display:inline-block; position:relative; width:auto; font-family:'SamsungOne400'; font-size:16px; line-height:32px; color:#000; text-decoration:underline; word-break:break-word}
-.load .hubble a.c_link-type1:after{display:inline-block; width:19px; height:19px; margin-left:12px; background-image:url('./images/galaxy-s20_page_link.png');background-position:0 0; background-repeat:no-repeat; background-size:100% 300%; vertical-align:sub; content:'';}
+.load .hubble a.c_link-type1:after{display:inline-block; width:19px; height:19px; margin-left:12px; background-image:url('../images/galaxy-s20_page_link.png');background-position:0 0; background-repeat:no-repeat; background-size:100% 300%; vertical-align:sub; content:'';}
 .hubble a.c_link-type1 em {font-family:'SamsungOne700'}
 html:not(.color_yb).s34.desktop .hubble a.c_link-type1:hover,
 html:not(.color_yb).s34.desktop .hubble a.c_link-type1:focus {color: #5084ca !important; text-decoration: underline}
@@ -278,8 +278,8 @@ html:not(.color_yb).s34.desktop .hubble a.c_link-type1:focus:after {background-p
 .s3 .m_jump_controls_arrow [class*="-prev"]{left:10px}
 .s3 .m_jump_controls_arrow [class*="-next"]{right:10px}
 html:not(.color_yb) .m_jump_controls_arrow a span {font-size:initial;text-indent:-9999%;overflow:hidden;}
-html.load:not(.color_yb) .m_jump_controls_arrow .m_btn_type2-prev span {background:url('./images/galaxy-s20_jump_arrow_prev.png') no-repeat 50% 50% !important; opacity:1;}
-html.load:not(.color_yb) .m_jump_controls_arrow .m_btn_type2-next span {background:url('./images/galaxy-s20_jump_arrow_next.png') no-repeat 50% 50% !important; opacity:1;}
+html.load:not(.color_yb) .m_jump_controls_arrow .m_btn_type2-prev span {background:url('../images/galaxy-s20_jump_arrow_prev.png') no-repeat 50% 50% !important; opacity:1;}
+html.load:not(.color_yb) .m_jump_controls_arrow .m_btn_type2-next span {background:url('../images/galaxy-s20_jump_arrow_next.png') no-repeat 50% 50% !important; opacity:1;}
 
 .s12 .m_jump_controls_arrow{display:none}
 
@@ -382,10 +382,10 @@ html.load:not(.color_yb) .m_jump_controls_arrow .m_btn_type2-next span {backgrou
 .s2 .m_banners .m_banner-content.m_banner_trade-up {padding:110px 80px 505px;}
 .s2 .m_banners .m_banner-content.m_banner_explore {padding:110px 135px 528px;}
 .s2 .m_banners .c_btn_hubble-type2 {min-width:270px}
-.s2.load .m_banners .m_banner-content.m_banner_buynow {background:#000 url('./images/galaxy-s20_banner_buynow_m.jpg') no-repeat 50% 77%;background-size:425px auto}
-.s2.load .m_banners .m_banner-content.m_banner_buynow.order {background:#000 url('./images/galaxy-s20_banner_buynow_group_m.jpg') no-repeat 50% 100%;background-size:100% auto}
-.s2.load .m_banners .m_banner-content.m_banner_trade-up {background:#000 url('./images/galaxy-s20_banner_trade-up_m.jpg') no-repeat 42% 85%;background-size:848px auto}
-.s2.load .m_banners .m_banner-content.m_banner_explore {background:#000 url('./images/galaxy-s20_banner_explore_m.jpg') no-repeat 50% 80.4%;background-size:491px auto;}
+.s2.load .m_banners .m_banner-content.m_banner_buynow {background:#000 url('../images/galaxy-s20_banner_buynow_m.jpg') no-repeat 50% 77%;background-size:425px auto}
+.s2.load .m_banners .m_banner-content.m_banner_buynow.order {background:#000 url('../images/galaxy-s20_banner_buynow_group_m.jpg') no-repeat 50% 100%;background-size:100% auto}
+.s2.load .m_banners .m_banner-content.m_banner_trade-up {background:#000 url('../images/galaxy-s20_banner_trade-up_m.jpg') no-repeat 42% 85%;background-size:848px auto}
+.s2.load .m_banners .m_banner-content.m_banner_explore {background:#000 url('../images/galaxy-s20_banner_explore_m.jpg') no-repeat 50% 80.4%;background-size:491px auto;}
 
 .s1 .m_banners {padding:18px 16px 0;}
 .s1 .m_banner-content .c_banner_tit-type2 {max-width:274px;margin:0 auto;margin-bottom:20px;font-size:22px !important;line-height:32px !important;}
@@ -393,16 +393,16 @@ html.load:not(.color_yb) .m_jump_controls_arrow .m_btn_type2-next span {backgrou
 .s1 .m_banner-content:not(.order) .c_banner_tit-type2 {margin-bottom:25px;}
 .s1 .m_banners .m_banner-content {max-width:576px;margin-bottom:25px;}
 .s1 .m_banners .m_banner-inner {margin:0 auto}
-.s1 .m_banners .m_banner-content.m_banner_buynow {padding:55px 40px 247px;background:#000 url('./images/galaxy-s20_banner_buynow_m.jpg') no-repeat 50% 77%;background-size:194px auto}
-.s1 .m_banners .m_banner-content.m_banner_buynow.order {padding:55px 40px 247px;background:#000 url('./images/galaxy-s20_banner_buynow_group_m.jpg') no-repeat 100% 105%;background-size:254px auto}
-.s1 .m_banners .m_banner-content.m_banner_trade-up {padding:55px 40px 242px;background:#000 url('./images/galaxy-s20_banner_trade-up_m.jpg') no-repeat 42% 85%;background-size:395px auto}
-.s1 .m_banners .m_banner-content.m_banner_explore {padding:55px 40px 262px;background:#000 url('./images/galaxy-s20_banner_explore_m.jpg') no-repeat 50% 80.4%;background-size:259px auto;}
+.s1 .m_banners .m_banner-content.m_banner_buynow {padding:55px 40px 247px;background:#000 url('../images/galaxy-s20_banner_buynow_m.jpg') no-repeat 50% 77%;background-size:194px auto}
+.s1 .m_banners .m_banner-content.m_banner_buynow.order {padding:55px 40px 247px;background:#000 url('../images/galaxy-s20_banner_buynow_group_m.jpg') no-repeat 100% 105%;background-size:254px auto}
+.s1 .m_banners .m_banner-content.m_banner_trade-up {padding:55px 40px 242px;background:#000 url('../images/galaxy-s20_banner_trade-up_m.jpg') no-repeat 42% 85%;background-size:395px auto}
+.s1 .m_banners .m_banner-content.m_banner_explore {padding:55px 40px 262px;background:#000 url('../images/galaxy-s20_banner_explore_m.jpg') no-repeat 50% 80.4%;background-size:259px auto;}
 .s1 .m_banners .c_btn_hubble-type2 {min-width:188px;overflow: hidden;text-overflow:ellipsis;max-width:100%}
 .s1 .m_banners .c_btn_hubble-type2 > span {white-space: nowrap}
-.s1.load .m_banners .m_banner-content.m_banner_buynow {background:#000 url('./images/galaxy-s20_banner_buynow_m.jpg') no-repeat 50% 77%;background-size:194px auto}
-.s1.load .m_banners .m_banner-content.m_banner_buynow.order {background:#000 url('./images/galaxy-s20_banner_buynow_group_m.jpg') no-repeat 100% 105%;background-size:254px auto}
-.s1.load .m_banners .m_banner-content.m_banner_trade-up {background:#000 url('./images/galaxy-s20_banner_trade-up_m.jpg') no-repeat 42% 85%;background-size:395px auto}
-.s1.load .m_banners .m_banner-content.m_banner_explore {background:#000 url('./images/galaxy-s20_banner_explore_m.jpg') no-repeat 50% 80.4%;background-size:259px auto;}
+.s1.load .m_banners .m_banner-content.m_banner_buynow {background:#000 url('../images/galaxy-s20_banner_buynow_m.jpg') no-repeat 50% 77%;background-size:194px auto}
+.s1.load .m_banners .m_banner-content.m_banner_buynow.order {background:#000 url('../images/galaxy-s20_banner_buynow_group_m.jpg') no-repeat 100% 105%;background-size:254px auto}
+.s1.load .m_banners .m_banner-content.m_banner_trade-up {background:#000 url('../images/galaxy-s20_banner_trade-up_m.jpg') no-repeat 42% 85%;background-size:395px auto}
+.s1.load .m_banners .m_banner-content.m_banner_explore {background:#000 url('../images/galaxy-s20_banner_explore_m.jpg') no-repeat 50% 80.4%;background-size:259px auto;}
 
 .s1.s0 .m_banners .m_banner-content.m_banner_buynow {padding:55px 10px 247px}
 .s1.s0 .m_banners .m_banner-content.m_banner_trade-up {padding:55px 10px 242px;}
@@ -411,10 +411,10 @@ html.load:not(.color_yb) .m_jump_controls_arrow .m_btn_type2-next span {backgrou
 /*! column3 | banners */
 .m_banners.column3 .m_banner-content {width:31.804%;padding:75px 4.6448087% 0;border-radius:48px;}
 .m_banners.column3 .m_banner-inner {max-width:280px;min-height:320px;padding-bottom:81.276%}
-.load .m_banners.column3 .m_banner_buynow {background:#000 url('./images/galaxy-s20_banner_buynow_colu3.jpg') no-repeat 0 100%;background-size:100% auto;}
-.load .m_banners.column3 .m_banner_buynow.order {background:#000 url('./images/galaxy-s20_banner_buynow_group_colu3.jpg') no-repeat 0 100%;background-size:100% auto;}
-.load .m_banners.column3 .m_banner_trade-up {background:#000 url('./images/galaxy-s20_banner_trade-up_colu3.jpg') no-repeat 0 100%;background-size:100% auto;}
-.load .m_banners.column3 .m_banner_explore {background:#000 url('./images/galaxy-s20_banner_explore_colu3.jpg') no-repeat 0 100%;background-size:100% auto;}
+.load .m_banners.column3 .m_banner_buynow {background:#000 url('../images/galaxy-s20_banner_buynow_colu3.jpg') no-repeat 0 100%;background-size:100% auto;}
+.load .m_banners.column3 .m_banner_buynow.order {background:#000 url('../images/galaxy-s20_banner_buynow_group_colu3.jpg') no-repeat 0 100%;background-size:100% auto;}
+.load .m_banners.column3 .m_banner_trade-up {background:#000 url('../images/galaxy-s20_banner_trade-up_colu3.jpg') no-repeat 0 100%;background-size:100% auto;}
+.load .m_banners.column3 .m_banner_explore {background:#000 url('../images/galaxy-s20_banner_explore_colu3.jpg') no-repeat 0 100%;background-size:100% auto;}
 
 .s4 .m_banners.column3 .m_banner_buynow .m_banner-inner  {padding-bottom:100%}
 .s3 .m_banners.column3 .m_banner_buynow .m_banner-inner  {padding-bottom:80%}
@@ -429,10 +429,10 @@ html.load:not(.color_yb) .m_jump_controls_arrow .m_btn_type2-next span {backgrou
 /*! column2 | banners */
 .m_banners.column2 .c_banner_tit-type2 {font-size:34px;line-height:48px;}
 .m_banners.column2 .m_banner-content {width: 48.852459%;padding:80px 24% 80px 5.246%;border-radius:48px;}
-.load .m_banners.column2 .m_banner_buynow {background:#000 url('./images/galaxy-s20_banner_buynow_colu2.jpg') no-repeat 92% 50%;}
-.load .m_banners.column2 .m_banner_buynow.order {background:#000 url('./images/galaxy-s20_banner_buynow_group_colu2.jpg') no-repeat 100% 100%;}
-.load .m_banners.column2 .m_banner_trade-up {background:#000 url('./images/galaxy-s20_banner_trade-up.jpg') no-repeat 92% 50%;}
-.load .m_banners.column2 .m_banner_explore {background:#000 url('./images/galaxy-s20_banner_explore_colu2.jpg') no-repeat 92% 50%;}
+.load .m_banners.column2 .m_banner_buynow {background:#000 url('../images/galaxy-s20_banner_buynow_colu2.jpg') no-repeat 92% 50%;}
+.load .m_banners.column2 .m_banner_buynow.order {background:#000 url('../images/galaxy-s20_banner_buynow_group_colu2.jpg') no-repeat 100% 100%;}
+.load .m_banners.column2 .m_banner_trade-up {background:#000 url('../images/galaxy-s20_banner_trade-up.jpg') no-repeat 92% 50%;}
+.load .m_banners.column2 .m_banner_explore {background:#000 url('../images/galaxy-s20_banner_explore_colu2.jpg') no-repeat 92% 50%;}
 .s3 .m_banners.column2 .c_banner_tit-type2 {font-size:30px;line-height:42px;font-size:2.083vw;line-height:2.917vw}
 .s3 .m_banners.column2 .m_banner-content {min-height:250px;padding:50px 20% 50px 5.246%;border-radius:3.334vw}
 .s3 .m_banners.column2 .m_banner_buynow {background-size:60% auto}
@@ -448,10 +448,10 @@ html.load:not(.color_yb) .m_jump_controls_arrow .m_btn_type2-next span {backgrou
 .m_banners.column1 > .m_banner-content:last-child {margin-bottom:0;}
 .m_banners.column1 .c_banner_tit-type2 {font-size:38px;line-height:48px;}
 .m_banners.column1 .m_banner-content {margin-bottom:30px;padding:50px 0% 50px 4.09180328%;border-radius:46px;min-height:350px;display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-align:center;-webkit-box-align:center;align-items:center;}
-.load .m_banners.column1 .m_banner_buynow {background:#000 url('./images/galaxy-s20_banner_buynow_colu1.jpg') no-repeat 92% 50%}
-.load .m_banners.column1 .m_banner_buynow.order {background:#000 url('./images/galaxy-s20_banner_buynow_group_colu1.jpg') no-repeat 100% 100%}
-.load .m_banners.column1 .m_banner_trade-up {background:#000 url('./images/galaxy-s20_banner_trade-up.jpg') no-repeat 92% 50%}
-.load .m_banners.column1 .m_banner_explore {background:#000 url('./images/galaxy-s20_banner_explore_colu1.jpg') no-repeat 92% 50px}
+.load .m_banners.column1 .m_banner_buynow {background:#000 url('../images/galaxy-s20_banner_buynow_colu1.jpg') no-repeat 92% 50%}
+.load .m_banners.column1 .m_banner_buynow.order {background:#000 url('../images/galaxy-s20_banner_buynow_group_colu1.jpg') no-repeat 100% 100%}
+.load .m_banners.column1 .m_banner_trade-up {background:#000 url('../images/galaxy-s20_banner_trade-up.jpg') no-repeat 92% 50%}
+.load .m_banners.column1 .m_banner_explore {background:#000 url('../images/galaxy-s20_banner_explore_colu1.jpg') no-repeat 92% 50px}
 .m_banners.column1 .m_banner-inner {width:43.715847%;}
 .s3 .m_banners.column1 .c_banner_tit-type2 {font-size:35px;line-height:47px;font-size:2.431vw;line-height:3.264vw}
 .s3 .m_banners.column1 .m_banner-content {min-height:250px;padding-top:3.472vw;padding-bottom:3.472vw;border-radius:3.194vw}
@@ -564,16 +564,16 @@ html.color_yb.dotcom .m_dotcom_footer .c_btn_hubble-type2 {border-color:#fff}
 
 .layer-models .m_background {z-index:0;position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);}
 
-.load .layer-models button[class*=c_btn_]{z-index:10;position:absolute;right:33px;top:33px;width:50px;height:50px;border-radius:50%;opacity:0;outline:none;width:50px;height:50px;text-indent:-9999px;overflow:hidden;z-index:20;background: url('./images/galaxy-s20_models_layer_close.png') no-repeat 0/100%;transition:opacity 0.45s;}
+.load .layer-models button[class*=c_btn_]{z-index:10;position:absolute;right:33px;top:33px;width:50px;height:50px;border-radius:50%;opacity:0;outline:none;width:50px;height:50px;text-indent:-9999px;overflow:hidden;z-index:20;background: url('../images/galaxy-s20_models_layer_close.png') no-repeat 0/100%;transition:opacity 0.45s;}
 .s2 .layer-models button[class*=c_btn_]{right:32px;top:32px}
-.load.s1 .layer-models button[class*=c_btn_]{right:15px;top:15px;width:32px;height:32px;background-image: url('./images/galaxy-s20_models_layer_close_s.png')}
+.load.s1 .layer-models button[class*=c_btn_]{right:15px;top:15px;width:32px;height:32px;background-image: url('../images/galaxy-s20_models_layer_close_s.png')}
 
 .layer-models.show button[class*=c_btn_]{opacity:1;outline:invert none medium;}
 .layer-models.show button[class*=c_btn_]:focus{outline:2px dotted rgba(0,0,0,0.4)}
 
-.load .layer-models button.c_btn_back{display:none;right:auto;left:33px;background-image: url('./images/c_btn_layer_back.png');}
+.load .layer-models button.c_btn_back{display:none;right:auto;left:33px;background-image: url('../images/c_btn_layer_back.png');}
 .s2 .layer-models button.c_btn_back{right:auto;left:32px;top:32px}
-.load.s1 .layer-models button.c_btn_back{right:auto;left:15px;top:15px;width:32px;height:32px;background-image: url('./images/c_btn_layer_back.png');}
+.load.s1 .layer-models button.c_btn_back{right:auto;left:15px;top:15px;width:32px;height:32px;background-image: url('../images/c_btn_layer_back.png');}
 
 
 
@@ -718,9 +718,9 @@ html.load .click-video .f_container .video_wrap {opacity:1;}
 .click-video .f_container .video_play {position:absolute;left:0;top:0;width:100%;height:100%;font-size:10px;color:transparent;z-index:11;}
 .imageLoad .click-video .f_container .video_play {background-image:url('/global/galaxy/common/images/galaxy-video_dimmed.png');}
 .click-video .f_container .video_play:after {position:absolute;left:50%;top:50%;width:65px;height:65px;margin:-32px 0 0 -32px;opacity:1;display:block;z-index:1;transition:opacity 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000), transform 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000);-webkit-transition:opacity 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000), transform 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000);-moz-transition:opacity 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000), transform 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000);-o-transition:opacity 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000), transform 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000); z-index:3; content:''; border-radius: 50%;}
-.imageLoad .click-video .f_container .video_play:after {background: url('./images/btn_player.png') no-repeat; background-size:100% 300%;}
+.imageLoad .click-video .f_container .video_play:after {background: url('../images/btn_player.png') no-repeat; background-size:100% 300%;}
 .click-video .f_container .video_play:before {position:absolute;left:50%;top:50%;width:65px;height:65px;margin:-32px 0 0 -32px;opacity:1;display:block;z-index:1;transition:opacity 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000), transform 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000);-webkit-transition:opacity 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000), transform 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000);-moz-transition:opacity 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000), transform 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000);-o-transition:opacity 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000), transform 0.3s cubic-bezier(0.165, 0.840, 0.440, 1.000); z-index:3; content:''; opacity:0;}
-.imageLoad .click-video .f_container .video_play:before {background:url('./images/btn_player.png') no-repeat; background-size:100% 300%; background-position:0 100%;}
+.imageLoad .click-video .f_container .video_play:before {background:url('../images/btn_player.png') no-repeat; background-size:100% 300%; background-position:0 100%;}
 .imageLoad .click-video .f_container a.video_play:hover:after,
 .imageLoad .click-video .f_container a.video_play:focus:after {opacity:1;-webkit-transform:scale(1.1,1.1) rotate(0.001deg);-ms-transform:scale(1.1,1.1) rotate(0.001deg);transform:scale(1.1,1.1) rotate(0.001deg); background-position:0 50%;}
 
@@ -743,8 +743,8 @@ html.load .click-video .f_container .video_wrap {opacity:1;}
 .click-video .f_container .hide-bg {z-index:1;}
 .click-video .f_container .canvas + .hide-bg {z-index:11;}
 
-.imageLoad .click-video .f_container .video_play.bk:after {background: url('./images/btn_player_bk.png') no-repeat; background-size:100% 300%;}
-.imageLoad .click-video .f_container .video_play.bk:before {background:url('./images/btn_player_bk.png') no-repeat; background-size:100% 300%; background-position:0 100%;}
+.imageLoad .click-video .f_container .video_play.bk:after {background: url('../images/btn_player_bk.png') no-repeat; background-size:100% 300%;}
+.imageLoad .click-video .f_container .video_play.bk:before {background:url('../images/btn_player_bk.png') no-repeat; background-size:100% 300%; background-position:0 100%;}
 
 
 .s1 .click-video .f_container .video_play:after,
@@ -762,8 +762,8 @@ html.load .click-video .f_container .video_wrap {opacity:1;}
 
 .click-video .video-mode-wrap {position:relative;}
 
-html.color_yb.imageLoad .click-video .f_container .video_play:after {background: url('./images/btn_player_yb.jpg') no-repeat;background-size:100% 300%;}
-html.color_yb.imageLoad .click-video .f_container .video_play:before {background:url('./images/btn_player_yb.jpg') no-repeat;background-size:100% 300%; background-position:0 100%;}
+html.color_yb.imageLoad .click-video .f_container .video_play:after {background: url('../images/btn_player_yb.jpg') no-repeat;background-size:100% 300%;}
+html.color_yb.imageLoad .click-video .f_container .video_play:before {background:url('../images/btn_player_yb.jpg') no-repeat;background-size:100% 300%; background-position:0 100%;}
 
 /* @IF[RTL] */
 html.rtl .hubble a.c_link-type1:after { margin-left: 0; margin-right: 6px; }
@@ -785,22 +785,22 @@ html.rtl .hubble .o_desc-area {margin:50px -40px -25px 0;}
 html.rtl .hubble .o_desc-area > .c_sub-bx {padding:0 20px 0 0;margin:0 20px 25px 0}
 html.rtl.s1 .hubble .m_content-title .c_cate-type1{text-align: right;}
 html.rtl.s34 .m_banner_other-item {direction:ltr}
-html.rtl.s34.load .m_banners.column3 .m_banner_buynow {background-image:url('./images/galaxy-s20_banner_buynow_colu3_rtl.jpg');}
-html.rtl.s34.load .m_banners.column3 .m_banner_buynow.order {background-image:url('./images/galaxy-s20_banner_buynow_group_colu3_rtl.jpg');}
-html.rtl.s34.load .m_banners.column3 .m_banner_trade-up {background-image:url('./images/galaxy-s20_banner_trade-up_colu3_rtl.jpg');}
-html.rtl.s34.load .m_banners.column3 .m_banner_explore {background-image:url('./images/galaxy-s20_banner_explore_colu3_rtl.jpg')}
+html.rtl.s34.load .m_banners.column3 .m_banner_buynow {background-image:url('../images/galaxy-s20_banner_buynow_colu3_rtl.jpg');}
+html.rtl.s34.load .m_banners.column3 .m_banner_buynow.order {background-image:url('../images/galaxy-s20_banner_buynow_group_colu3_rtl.jpg');}
+html.rtl.s34.load .m_banners.column3 .m_banner_trade-up {background-image:url('../images/galaxy-s20_banner_trade-up_colu3_rtl.jpg');}
+html.rtl.s34.load .m_banners.column3 .m_banner_explore {background-image:url('../images/galaxy-s20_banner_explore_colu3_rtl.jpg')}
 
 html.rtl .m_banners.column1 .m_banner-content {padding:50px 4.09180328% 50px 0%}
-html.rtl.s34.load .m_banners.column1 .m_banner_buynow.order {background-image:url('./images/galaxy-s20_banner_buynow_group_colu1_rtl.jpg');background-position:0 100%;}
+html.rtl.s34.load .m_banners.column1 .m_banner_buynow.order {background-image:url('../images/galaxy-s20_banner_buynow_group_colu1_rtl.jpg');background-position:0 100%;}
 html.rtl.s34 .m_banners.column1 .m_banner_buynow,
 html.rtl.s34 .m_banners.column1 .m_banner_trade-up {background-position:8% 50%;}
 html.rtl.s34 .m_banners.column1 .m_banner_explore {background-position:8% 50px}
 html.rtl.s3 .m_banners.column1 .m_banner_buynow {background-size:auto;}
 html.rtl.s3 .m_banners.column1 .m_banner_explore {background-size:19.697% auto;}
-html.rtl.s34.load .m_banners.column2 .m_banner_buynow.order {background-image:url('./images/galaxy-s20_banner_buynow_group_colu2_rtl.jpg');background-position:0 100%;}
+html.rtl.s34.load .m_banners.column2 .m_banner_buynow.order {background-image:url('../images/galaxy-s20_banner_buynow_group_colu2_rtl.jpg');background-position:0 100%;}
 html.rtl.s34 .m_banners.column2 .m_banner_buynow,
 html.rtl.s34 .m_banners.column2 .m_banner_trade-up {background-position:8% 50%;}
-html.rtl.s1.load .m_banners .m_banner-content.m_banner_buynow.order {background-image:url('./images/galaxy-s20_banner_buynow_group_rtl_m.jpg');background-position:0 105%}
+html.rtl.s1.load .m_banners .m_banner-content.m_banner_buynow.order {background-image:url('../images/galaxy-s20_banner_buynow_group_rtl_m.jpg');background-position:0 105%}
 html.rtl.s34 .m_banners.column2 .m_banner_explore {background-position:8% 50px}
 html.rtl.s4 .m_banners.column2 .m_banner-content {padding:80px 5.246% 80px 24%}
 html.rtl.s3 .m_banners.column2 .m_banner-content {padding:50px 5.246% 50px 22%}
@@ -1010,12 +1010,12 @@ html.rtl.s1 .layer-models button.c_btn_back{right:15px;left:auto;}
 	.youtube-slide .youtube-video li.view{visibility: hidden;}
 	.youtube-slide .youtube-video li a {position:relative;display:block;}
 	.youtube-slide .youtube-video li a:before,
-	.youtube-slide .youtube-video li a:after {position:absolute;top:50%;left:50%;width:73px;height:73px;margin:-36px 0 0 -36px;background-image:url('./images/youtube_btn_player.png');background-size:100%;content:'';z-index:10;
+	.youtube-slide .youtube-video li a:after {position:absolute;top:50%;left:50%;width:73px;height:73px;margin:-36px 0 0 -36px;background-image:url('../images/youtube_btn_player.png');background-size:100%;content:'';z-index:10;
 		-webkit-transform: translateZ(1px);-moz-transform: translateZ(1px);-ms-transform: translateZ(1px);transform: translateZ(1px);
 		-webkit-transition: all .5s;transition: all .5s;
 	}
 	.youtube-slide .youtube-video li a:hover:after,
-	.youtube-slide .youtube-video li a:focus:after{background-image: url('./images/youtube_btn_player-over.png');-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);}
+	.youtube-slide .youtube-video li a:focus:after{background-image: url('../images/youtube_btn_player-over.png');-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);}
 	.youtube-slide .youtube-video li a:hover:before,
 	.youtube-slide .youtube-video li a:focus:before{opacity: 0}
 	.youtube-slide .youtube-video li strong {display:block;max-width:110px;margin:23px auto 0;font-size:12px;line-height:16px;font-family:'sssM';letter-spacing: 0.06em;}
@@ -1153,7 +1153,7 @@ transform:translateX(-50%);-webkit-transform:translateX(-50%);-ms-transform:tran
 	.m_feature-review .review_wrap li.view{visibility: hidden;}
 
 	.m_feature-review .review_wrap .review {display:inline-block;width:360px;min-height:360px;padding:48px 45px;box-sizing:border-box;border-radius:50px;overflow:hidden;color:#000;}
-html.imageLoad .m_feature-review .review_wrap .review {background:#c6e7ee url('./images/galaxy-s20_highlights_review_bg-white.png') no-repeat;background-size:100%;}
+html.imageLoad .m_feature-review .review_wrap .review {background:#c6e7ee url('../images/galaxy-s20_highlights_review_bg-white.png') no-repeat;background-size:100%;}
 html.imageLoad .m_feature-review .review_wrap .review:nth-child(1) {background-color:#c6e7ee;}
 html.imageLoad .m_feature-review .review_wrap .review:nth-child(2) {background-color:#cdebd6;}
 html.imageLoad .m_feature-review .review_wrap .review:nth-child(3) {background-color:#d9dff4;}
@@ -1162,8 +1162,8 @@ html.imageLoad .m_feature-review .review_wrap .review:nth-child(3) {background-c
 	.m_feature-review .review_wrap .review .stars i {position:relative;display:block;margin:0 auto;width: 164px;height: 21px; }
 	.m_feature-review .review_wrap .review .stars i:before {content:'';display:inline-block;vertical-align:middle;width:100%;height:100%;}
 	.m_feature-review .review_wrap .review .stars i:after {content:'';display:inline-block;vertical-align:middle;width:0;height:100%;}
-html.imageLoad .m_feature-review .review_wrap .review .stars i:before {background: url('./images/galaxy-s20_highlights_review-star.png');background-repeat: repeat-x;background-size:auto 200%;}
-html.imageLoad .m_feature-review .review_wrap .review .stars i:after {background: url('./images/galaxy-s20_highlights_review-star.png');background-repeat: repeat-x;background-size:auto 200%;background-position:0 100%;}
+html.imageLoad .m_feature-review .review_wrap .review .stars i:before {background: url('../images/galaxy-s20_highlights_review-star.png');background-repeat: repeat-x;background-size:auto 200%;}
+html.imageLoad .m_feature-review .review_wrap .review .stars i:after {background: url('../images/galaxy-s20_highlights_review-star.png');background-repeat: repeat-x;background-size:auto 200%;background-position:0 100%;}
 
 	.m_feature-review .review_wrap .review .stars.num0 i:before {width:0;}
 	.m_feature-review .review_wrap .review .stars.num0 i:after {width:100%;}
@@ -1228,7 +1228,7 @@ html.imageLoad.s12 .m_feature-review .review_wrap .review:nth-child(2) {backgrou
 .s1 article.m_feature-review {padding-left:0;padding-right:0;max-width:none;margin: 0 -25px;}
 .s1 article.m_feature-review .f_container{width: auto;padding: 0 50px}
 .s1 .m_feature-review .review_wrap .review {width:calc(50% - 10px);min-height:180px;margin: 0 5px;border-radius:30px;padding:30px 18px;}
-html.imageLoad.s1 .m_feature-review .review_wrap .review {background-image:url('./images/galaxy-s20_highlights_review_bg-white_s.png');}
+html.imageLoad.s1 .m_feature-review .review_wrap .review {background-image:url('../images/galaxy-s20_highlights_review_bg-white_s.png');}
 .s1 .m_feature-review .review_wrap .review .stars i {height:12px;width:93px;}
 .s1 .m_feature-review .review_wrap .text_wrap {margin-top:14px;}
 .s1 .m_feature-review .review_wrap .text_wrap strong {font-size:12px;line-height:1.5em;height:3em;}
